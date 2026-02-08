@@ -3,51 +3,60 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Yay ❤️</title>
+<title>She Said Yes ❤️</title>
 
 <style>
-  body{
-    height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    background:linear-gradient(135deg,#ff758c,#ff7eb3);
-    color:white;
-    text-align:center;
-    font-family:"Poppins",sans-serif;
-    overflow:hidden;
-  }
+body{
+  margin:0;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:radial-gradient(circle at center,#ff758c,#ff4d6d,#000);
+  color:white;
+  text-align:center;
+  font-family:"Poppins",sans-serif;
+  overflow:hidden;
+}
 
-  h1{
-    font-size:50px;
-    animation:pop 1s ease forwards;
-  }
+.box{
+  animation:fadeIn 2s ease forwards;
+  opacity:0;
+}
 
-  p{
-    font-size:22px;
-    margin-top:15px;
-    opacity:0;
-    animation:fade 2s ease 1s forwards;
-  }
+h1{
+  font-size:52px;
+  margin-bottom:20px;
+  text-shadow:0 0 20px #fff;
+}
 
-  @keyframes pop{
-    from{transform:scale(0);}
-    to{transform:scale(1);}
-  }
+p{
+  font-size:22px;
+  line-height:1.6;
+}
 
-  @keyframes fade{
-    to{opacity:1;}
-  }
+@keyframes fadeIn{
+  to{opacity:1;}
+}
 </style>
 </head>
 
 <body>
 
-<div>
-  <h1>YAYYY Khushi!!! 💕</h1>
-  <p>You are officially my Valentine now 😘</p>
-  <p>I promise to make you smile every single day ❤️</p>
+<div class="box">
+  <h1>Khushi said YES 💕</h1>
+  <p>
+    From this moment…  
+    every smile of yours is my responsibility ❤️  
+  </p>
+  <p>
+    Happy Valentine’s Day, Khushi 🌹  
+  </p>
 </div>
+
+<audio autoplay loop>
+  <source src="https://www.bensound.com/bensound-music/bensound-romantic.mp3" type="audio/mpeg">
+</audio>
 
 </body>
 </html>
